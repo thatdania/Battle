@@ -1,5 +1,7 @@
 <%= @player_1 %> vs <%= @player_2 %><br>
-P1: <%= @p1_hp %>/100 P2: <%= @p2_hp %>/100
+P1: <%= @p1_hp %>/100 P2: <%= @p2_hp %>/100<br>
+
+<%= @message %>
 
 <form action = '/attack_P2' method = 'post'>
 <input type = 'submit' value = 'Attack P2'>
