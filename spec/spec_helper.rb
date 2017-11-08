@@ -8,6 +8,7 @@ require File.join(File.dirname(__FILE__), '..', 'app.rb')
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
+require_relative 'features/web_helpers.rb'
 
 Capybara.app = Battle
 
@@ -40,7 +41,7 @@ RSpec.configure do |config|
     #     # => "be bigger than 2"
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
 
-    
+
 
   end
 

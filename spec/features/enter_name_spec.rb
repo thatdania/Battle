@@ -7,18 +7,12 @@ describe 'Battle', :type => :feature do
   end
 
   it 'accepts two player names' do
-    visit '/start'
-    fill_in('player_1', with:'Dania')
-    fill_in('player_2', with:'Ignacio')
-    click_on('Fight')
+    sign_in_and_play
     expect(page).to have_content 'Dania vs Ignacio'
   end
 
   it 'show\'s players hit points' do
-    visit '/start'
-    fill_in('player_1', with:'Dania')
-    fill_in('player_2', with:'Ignacio')
-    click_on('Fight')
-    expect(page).to have_content('P1:0/100 P2:0/100')
+    sign_in_and_play
+    expect(page).to have_content('P1: 0/100 P2: 0/100')
   end
 end
