@@ -1,4 +1,4 @@
-# Battle 🎮🎮
+# Battle 🎮🎮 [![Build Status](https://travis-ci.org/thatdania/Battle.svg?branch=master)](https://travis-ci.org/thatdania/Battle)
 
 This project was about building a battling game in pairs throughout the week using Ruby.
 We learnt how to connect different elements such as players, scores and attacks in diferrent
