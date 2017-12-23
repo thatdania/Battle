@@ -5,6 +5,35 @@ We learnt how to connect different elements such as players, scores and attacks 
 routes of the controller. Given we did this in pairs, this was a work in progress project as
 we jumped between people's projects across the week depending on thier progress. 
 
+# How to use 
+
+1. Clone the project 
+```
+git clone https://github.com/thatdania/Battlegame.git
+```
+
+2. Change into the project directory in your terminal 
+```
+cd battle
+```
+
+3. bundle install to get all the dependencies
+```
+bundle install 
+```
+
+4. Run the Server
+```
+ruby app.rb 
+```
+
+5. Check in your url at localhost:4567
+```
+http://localhost:4567
+```
+
+Enjoy the basics of a game!
+
 # Domain Model (User stories that we wanted to cover) 
 
 A strategy to approaching the problems of the challenge was to list out all the user stories that represented requirements for
